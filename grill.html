@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MaPi Web/shopping/grill/dvffgerfhfydagsfyvf1654479ddef74798649</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="background-color: rgb(37, 194, 181);">
+      <style>
+        body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: right;
+    }
+    
+    
+    a#a01 {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+      color: rgb(37, 194, 181);
+    }
+    a#a02 {
+      text-decoration: none;
+      
+      padding: 8px 16px;
+      color: rgb(10, 26, 245);
+    }
+    .previous {
+      background-color: #f1f1f1;
+      color: black;
+    }
+    
+    .next {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .round {
+      border-radius: 50%;
+      align-self: center;
+    }
+    #header {
+            background-color: black;
+            color: azure;
+           
+            padding: 5px;
+            
+    }
+    #footer {
+            background-color: black;
+            color: white;
+            clear: both;
+            text-align: center;
+            padding: 5px;
+    }
+    .image img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            position: absolute;
+    }
+    form#form01{
+      text-align: center;
+      padding-top: 2.5%;
+      display: inline-block;
+    }
+    img#img001{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+      
+    <div id="header">
+      <div class="image" style="text-align: left;">
+        <img src="MaPi.png">
+    </div>
+      <h1 style="text-align: center;">MaPi Web</h1>
+      <p style="text-align: right;">Shop here</p>
+      <a id="a01" href="shophome.html">Back</a>
+      <a id="a01" href="settings.html">Settings</a>
+    </div>
+    <div class="topnav">
+     
+      
+      
+    
+    </div>
+<!-- search bar start acitivite--> 
+    <form style="width: 100%; height: 200%; text-align: center; padding-top: 2.5%;"  name="shopp">
+      <select style="font-size: 20px;" name="mapi" id="mapi">
+        <option value="nothing" selected="selected">Grill</option>
+        
+        <option value="alexa.html">Alexa</option>
+        <option value="babydis.html">Baby diapers</option>
+        <option value="circket-bat.html">Circket Bat</option>
+        <option value="football.html">Football</option>
+        <option value="mask.html">Mask</option>
+        <option value="mobile.html">Mobile Phone</option>
+        <option value="mosqito-bat.html">Mosquito Bat</option>
+        <option value="mosqito-net.html">Mosquito Net</option>
+        <option value="toys.html">Toys</option>
+        <option value="#"></option>
+      </select>
+    </form>
+    <script type="text/javascript">
+        var urlMenu = document.getElementById('mapi');
+        urlMenu.onchange = function() {
+          var userOption = this.options[this.selectedIndex]
+          if (userOption.valu !="nothing") {
+             window.open(userOption.value, "shopping page", "");
+          }
+        }
+      </script>
+    <hr>
+<!-- search bar end acitivite--> 
+    
+    <h1 style="text-align: center;">Order From</h1>
+    <body style="text-align: center;">
+        <hr>
+        <img id="img001" src="amazon.png" width="30%" height="40%" >
+        <h4 style="text-align: center;">AMAZON.IN</h4>
+        <p style="text-align: center;"><a id="a02" href="grill(amazon).html">CLICK HERE</a>to shop</p>
+        
+        <hr>
+        <img id="img001" src="flipkart.png" width="30%" height="40%">
+        <h4 style="text-align: center;">FLIPKART</h4>
+        <p style="text-align: center;"><a id="a02" href="grill(flip[kart).html">CLICK HERE</a>to shop</p>
+        
+        <hr>
+       </body>
+    
+      <br>
+      <br>
+      
+        <div id="footer">
+          Copy&copy;right
+        </div>
+    </body>
+
+</html>
